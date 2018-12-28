@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/jpablopachar/app-chat-mongodb/issues"
   },
-  "homepage": "https://github.com/jpablopachar/app-chat-mongodb#readme"
+  "homepage": "https://github.com/jpablopachar/app-chat-mongodb#readme",
+  "devDependencies": {
+    "eslint": "^5.11.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.2.0"
+  }
 }
