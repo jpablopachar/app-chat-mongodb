@@ -13,8 +13,7 @@
   "keywords": [
     "nodejs",
     "mongodb",
-    "socket.io",
-    "handlebars"
+    "socket.io"
   ],
   "author": "jpablopachar",
   "license": "ISC",
@@ -23,7 +22,9 @@
   },
   "homepage": "https://github.com/jpablopachar/app-chat-mongodb#readme",
   "devDependencies": {
-    "eslint": "^5.11.1"
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
     "express": "^4.16.4",
