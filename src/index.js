@@ -9,7 +9,7 @@ const app = express();
 const servidor = http.createServer(app);
 const io = socketio.listen(servidor);
 
-io.on('connection', socket => console.log('Nuevo usuario conectado'));
+require('./sockets')(io);
 
 /*                  Ajustes                     */
 // Usa el puerto establecido o usa el puerto 3000
@@ -25,8 +25,6 @@ app.use(express.json());
 
 /*                    Rutas                      */
 // app.use(require('./routes/api'));
-
-/*                   Vistas                      */
 
 /*             Archivos Estáticos                */
 app.use(express.static(path.join(__dirname, 'public')));
